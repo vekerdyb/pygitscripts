@@ -1,0 +1,245 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="PyCompatibilityInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ourVersions">
+        <value>
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="3.10" />
+            <item index="1" class="java.lang.String" itemvalue="3.11" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyMissingTypeHintsInspection" enabled="true" level="INFORMATION" enabled_by_default="true">
+      <scope name="All Changed Files" level="ERROR" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="215">
+            <item index="0" class="java.lang.String" itemvalue="botocore" />
+            <item index="1" class="java.lang.String" itemvalue="pyathena" />
+            <item index="2" class="java.lang.String" itemvalue="markupsafe" />
+            <item index="3" class="java.lang.String" itemvalue="python-magic" />
+            <item index="4" class="java.lang.String" itemvalue="django-elasticache" />
+            <item index="5" class="java.lang.String" itemvalue="django-modelcluster" />
+            <item index="6" class="java.lang.String" itemvalue="bleach" />
+            <item index="7" class="java.lang.String" itemvalue="lxml" />
+            <item index="8" class="java.lang.String" itemvalue="soupsieve" />
+            <item index="9" class="java.lang.String" itemvalue="pmw" />
+            <item index="10" class="java.lang.String" itemvalue="uwsgi" />
+            <item index="11" class="java.lang.String" itemvalue="jsonschema" />
+            <item index="12" class="java.lang.String" itemvalue="xlrd" />
+            <item index="13" class="java.lang.String" itemvalue="pyrxp" />
+            <item index="14" class="java.lang.String" itemvalue="telepath" />
+            <item index="15" class="java.lang.String" itemvalue="asgiref" />
+            <item index="16" class="java.lang.String" itemvalue="typing-extensions" />
+            <item index="17" class="java.lang.String" itemvalue="click" />
+            <item index="18" class="java.lang.String" itemvalue="pact-python" />
+            <item index="19" class="java.lang.String" itemvalue="pyyaml" />
+            <item index="20" class="java.lang.String" itemvalue="willow" />
+            <item index="21" class="java.lang.String" itemvalue="boto3" />
+            <item index="22" class="java.lang.String" itemvalue="paramiko" />
+            <item index="23" class="java.lang.String" itemvalue="elasticsearch-dsl" />
+            <item index="24" class="java.lang.String" itemvalue="aws-secretsmanager-caching" />
+            <item index="25" class="java.lang.String" itemvalue="python-levenshtein" />
+            <item index="26" class="java.lang.String" itemvalue="twilio" />
+            <item index="27" class="java.lang.String" itemvalue="idna" />
+            <item index="28" class="java.lang.String" itemvalue="rx" />
+            <item index="29" class="java.lang.String" itemvalue="cffi" />
+            <item index="30" class="java.lang.String" itemvalue="django-storages" />
+            <item index="31" class="java.lang.String" itemvalue="numpy" />
+            <item index="32" class="java.lang.String" itemvalue="jdcal" />
+            <item index="33" class="java.lang.String" itemvalue="alabaster" />
+            <item index="34" class="java.lang.String" itemvalue="celery" />
+            <item index="35" class="java.lang.String" itemvalue="markdown" />
+            <item index="36" class="java.lang.String" itemvalue="fs.sshfs" />
+            <item index="37" class="java.lang.String" itemvalue="oe-flows" />
+            <item index="38" class="java.lang.String" itemvalue="pysftp" />
+            <item index="39" class="java.lang.String" itemvalue="imagesize" />
+            <item index="40" class="java.lang.String" itemvalue="et-xmlfile" />
+            <item index="41" class="java.lang.String" itemvalue="draftjs-exporter" />
+            <item index="42" class="java.lang.String" itemvalue="pgpy" />
+            <item index="43" class="java.lang.String" itemvalue="django-dynamic-db-router" />
+            <item index="44" class="java.lang.String" itemvalue="babel" />
+            <item index="45" class="java.lang.String" itemvalue="multidict" />
+            <item index="46" class="java.lang.String" itemvalue="pytz" />
+            <item index="47" class="java.lang.String" itemvalue="pyjwt" />
+            <item index="48" class="java.lang.String" itemvalue="luhn" />
+            <item index="49" class="java.lang.String" itemvalue="django-multidb-router" />
+            <item index="50" class="java.lang.String" itemvalue="requests-toolbelt" />
+            <item index="51" class="java.lang.String" itemvalue="graphql-relay" />
+            <item index="52" class="java.lang.String" itemvalue="haversine" />
+            <item index="53" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="54" class="java.lang.String" itemvalue="django-configurations" />
+            <item index="55" class="java.lang.String" itemvalue="promise" />
+            <item index="56" class="java.lang.String" itemvalue="jaconv" />
+            <item index="57" class="java.lang.String" itemvalue="django-extensions" />
+            <item index="58" class="java.lang.String" itemvalue="markuppy" />
+            <item index="59" class="java.lang.String" itemvalue="rlextra" />
+            <item index="60" class="java.lang.String" itemvalue="graphene-django" />
+            <item index="61" class="java.lang.String" itemvalue="django-countries" />
+            <item index="62" class="java.lang.String" itemvalue="docopt" />
+            <item index="63" class="java.lang.String" itemvalue="pymssql" />
+            <item index="64" class="java.lang.String" itemvalue="oauthlib" />
+            <item index="65" class="java.lang.String" itemvalue="stripe" />
+            <item index="66" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="67" class="java.lang.String" itemvalue="beautifulsoup4" />
+            <item index="68" class="java.lang.String" itemvalue="cryptography" />
+            <item index="69" class="java.lang.String" itemvalue="authlib" />
+            <item index="70" class="java.lang.String" itemvalue="sendgrid" />
+            <item index="71" class="java.lang.String" itemvalue="bcrypt" />
+            <item index="72" class="java.lang.String" itemvalue="jinja2" />
+            <item index="73" class="java.lang.String" itemvalue="odfpy" />
+            <item index="74" class="java.lang.String" itemvalue="django-csp" />
+            <item index="75" class="java.lang.String" itemvalue="djangorestframework-dataclasses" />
+            <item index="76" class="java.lang.String" itemvalue="wagtail" />
+            <item index="77" class="java.lang.String" itemvalue="geopy" />
+            <item index="78" class="java.lang.String" itemvalue="qrcode" />
+            <item index="79" class="java.lang.String" itemvalue="purl" />
+            <item index="80" class="java.lang.String" itemvalue="uwsgitop" />
+            <item index="81" class="java.lang.String" itemvalue="fs" />
+            <item index="82" class="java.lang.String" itemvalue="graphene" />
+            <item index="83" class="java.lang.String" itemvalue="billiard" />
+            <item index="84" class="java.lang.String" itemvalue="python-barcode" />
+            <item index="85" class="java.lang.String" itemvalue="six" />
+            <item index="86" class="java.lang.String" itemvalue="elasticsearch-django" />
+            <item index="87" class="java.lang.String" itemvalue="text-unidecode" />
+            <item index="88" class="java.lang.String" itemvalue="xlwt" />
+            <item index="89" class="java.lang.String" itemvalue="packaging" />
+            <item index="90" class="java.lang.String" itemvalue="python-intercom" />
+            <item index="91" class="java.lang.String" itemvalue="xlsxwriter" />
+            <item index="92" class="java.lang.String" itemvalue="chardet" />
+            <item index="93" class="java.lang.String" itemvalue="jmespath" />
+            <item index="94" class="java.lang.String" itemvalue="sphinx" />
+            <item index="95" class="java.lang.String" itemvalue="s3transfer" />
+            <item index="96" class="java.lang.String" itemvalue="pypdf2" />
+            <item index="97" class="java.lang.String" itemvalue="sphinxcontrib-jsmath" />
+            <item index="98" class="java.lang.String" itemvalue="aiohttp" />
+            <item index="99" class="java.lang.String" itemvalue="aiodns" />
+            <item index="100" class="java.lang.String" itemvalue="cython" />
+            <item index="101" class="java.lang.String" itemvalue="defusedxml" />
+            <item index="102" class="java.lang.String" itemvalue="xocto" />
+            <item index="103" class="java.lang.String" itemvalue="invoke" />
+            <item index="104" class="java.lang.String" itemvalue="l18n" />
+            <item index="105" class="java.lang.String" itemvalue="pycparser" />
+            <item index="106" class="java.lang.String" itemvalue="django-widget-tweaks" />
+            <item index="107" class="java.lang.String" itemvalue="elasticsearch" />
+            <item index="108" class="java.lang.String" itemvalue="sentry-sdk" />
+            <item index="109" class="java.lang.String" itemvalue="elementpath" />
+            <item index="110" class="java.lang.String" itemvalue="sphinxcontrib-qthelp" />
+            <item index="111" class="java.lang.String" itemvalue="docutils" />
+            <item index="112" class="java.lang.String" itemvalue="pycountry" />
+            <item index="113" class="java.lang.String" itemvalue="fuzzywuzzy" />
+            <item index="114" class="java.lang.String" itemvalue="pynacl" />
+            <item index="115" class="java.lang.String" itemvalue="gocardless-pro" />
+            <item index="116" class="java.lang.String" itemvalue="pylibmc" />
+            <item index="117" class="java.lang.String" itemvalue="aniso8601" />
+            <item index="118" class="java.lang.String" itemvalue="sphinxcontrib-httpdomain" />
+            <item index="119" class="java.lang.String" itemvalue="graphql-core" />
+            <item index="120" class="java.lang.String" itemvalue="schwifty" />
+            <item index="121" class="java.lang.String" itemvalue="reportlab" />
+            <item index="122" class="java.lang.String" itemvalue="ukpostcodeparser" />
+            <item index="123" class="java.lang.String" itemvalue="python3-openid" />
+            <item index="124" class="java.lang.String" itemvalue="zeep" />
+            <item index="125" class="java.lang.String" itemvalue="attrs" />
+            <item index="126" class="java.lang.String" itemvalue="psutil" />
+            <item index="127" class="java.lang.String" itemvalue="simplejson" />
+            <item index="128" class="java.lang.String" itemvalue="django-dotenv" />
+            <item index="129" class="java.lang.String" itemvalue="jsonlines" />
+            <item index="130" class="java.lang.String" itemvalue="signxml" />
+            <item index="131" class="java.lang.String" itemvalue="fs-s3fs" />
+            <item index="132" class="java.lang.String" itemvalue="isodate" />
+            <item index="133" class="java.lang.String" itemvalue="pyasn1" />
+            <item index="134" class="java.lang.String" itemvalue="requests" />
+            <item index="135" class="java.lang.String" itemvalue="pyopenssl" />
+            <item index="136" class="java.lang.String" itemvalue="eight" />
+            <item index="137" class="java.lang.String" itemvalue="pyrsistent" />
+            <item index="138" class="java.lang.String" itemvalue="sphinxcontrib-devhelp" />
+            <item index="139" class="java.lang.String" itemvalue="tenacity" />
+            <item index="140" class="java.lang.String" itemvalue="cached-property" />
+            <item index="141" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="142" class="java.lang.String" itemvalue="django-cors-headers" />
+            <item index="143" class="java.lang.String" itemvalue="pygments" />
+            <item index="144" class="java.lang.String" itemvalue="pyarrow" />
+            <item index="145" class="java.lang.String" itemvalue="uritemplate" />
+            <item index="146" class="java.lang.String" itemvalue="preppy" />
+            <item index="147" class="java.lang.String" itemvalue="phonenumbers" />
+            <item index="148" class="java.lang.String" itemvalue="amqp" />
+            <item index="149" class="java.lang.String" itemvalue="starkbank-ecdsa" />
+            <item index="150" class="java.lang.String" itemvalue="singledispatch" />
+            <item index="151" class="java.lang.String" itemvalue="social-auth-core" />
+            <item index="152" class="java.lang.String" itemvalue="mistune" />
+            <item index="153" class="java.lang.String" itemvalue="pandas" />
+            <item index="154" class="java.lang.String" itemvalue="python-http-client" />
+            <item index="155" class="java.lang.String" itemvalue="social-auth-app-django" />
+            <item index="156" class="java.lang.String" itemvalue="future" />
+            <item index="157" class="java.lang.String" itemvalue="yarl" />
+            <item index="158" class="java.lang.String" itemvalue="geoip2" />
+            <item index="159" class="java.lang.String" itemvalue="iso3166" />
+            <item index="160" class="java.lang.String" itemvalue="webencodings" />
+            <item index="161" class="java.lang.String" itemvalue="inflection" />
+            <item index="162" class="java.lang.String" itemvalue="sphinxcontrib-applehelp" />
+            <item index="163" class="java.lang.String" itemvalue="html5lib" />
+            <item index="164" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="165" class="java.lang.String" itemvalue="kombu" />
+            <item index="166" class="java.lang.String" itemvalue="property-cached" />
+            <item index="167" class="java.lang.String" itemvalue="xmlschema" />
+            <item index="168" class="java.lang.String" itemvalue="snowballstemmer" />
+            <item index="169" class="java.lang.String" itemvalue="appdirs" />
+            <item index="170" class="java.lang.String" itemvalue="certifi" />
+            <item index="171" class="java.lang.String" itemvalue="vine" />
+            <item index="172" class="java.lang.String" itemvalue="envparse" />
+            <item index="173" class="java.lang.String" itemvalue="django-treebeard" />
+            <item index="174" class="java.lang.String" itemvalue="anyascii" />
+            <item index="175" class="java.lang.String" itemvalue="boto" />
+            <item index="176" class="java.lang.String" itemvalue="tablib" />
+            <item index="177" class="java.lang.String" itemvalue="django-import-export" />
+            <item index="178" class="java.lang.String" itemvalue="sphinxcontrib-htmlhelp" />
+            <item index="179" class="java.lang.String" itemvalue="django-filter" />
+            <item index="180" class="java.lang.String" itemvalue="django-sequences" />
+            <item index="181" class="java.lang.String" itemvalue="requests-file" />
+            <item index="182" class="java.lang.String" itemvalue="django-taggit" />
+            <item index="183" class="java.lang.String" itemvalue="diff-match-patch" />
+            <item index="184" class="java.lang.String" itemvalue="django-graphql-jwt" />
+            <item index="185" class="java.lang.String" itemvalue="async-timeout" />
+            <item index="186" class="java.lang.String" itemvalue="more-itertools" />
+            <item index="187" class="java.lang.String" itemvalue="pycares" />
+            <item index="188" class="java.lang.String" itemvalue="django-login-required-middleware" />
+            <item index="189" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="190" class="java.lang.String" itemvalue="requests-oauthlib" />
+            <item index="191" class="java.lang.String" itemvalue="structlog" />
+            <item index="192" class="java.lang.String" itemvalue="num2words" />
+            <item index="193" class="java.lang.String" itemvalue="geographiclib" />
+            <item index="194" class="java.lang.String" itemvalue="xmltodict" />
+            <item index="195" class="java.lang.String" itemvalue="urllib3" />
+            <item index="196" class="java.lang.String" itemvalue="sphinxcontrib-serializinghtml" />
+            <item index="197" class="java.lang.String" itemvalue="maxminddb" />
+            <item index="198" class="java.lang.String" itemvalue="django-linear-migrations" />
+            <item index="199" class="java.lang.String" itemvalue="ddtrace" />
+            <item index="200" class="java.lang.String" itemvalue="overpunch" />
+            <item index="201" class="java.lang.String" itemvalue="tqdm" />
+            <item index="202" class="java.lang.String" itemvalue="lazy-object-proxy" />
+            <item index="203" class="java.lang.String" itemvalue="django-pwa" />
+            <item index="204" class="java.lang.String" itemvalue="django" />
+            <item index="205" class="java.lang.String" itemvalue="djangorestframework-xml" />
+            <item index="206" class="java.lang.String" itemvalue="pillow" />
+            <item index="207" class="java.lang.String" itemvalue="openpyxl" />
+            <item index="208" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="209" class="java.lang.String" itemvalue="fluent-syntax" />
+            <item index="210" class="java.lang.String" itemvalue="fs-sshfs" />
+            <item index="211" class="java.lang.String" itemvalue="backports-zoneinfo" />
+            <item index="212" class="java.lang.String" itemvalue="google-auth-oauthlib" />
+            <item index="213" class="java.lang.String" itemvalue="google-i18n-address" />
+            <item index="214" class="java.lang.String" itemvalue="google-api-python-client" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="Stylelint" enabled="true" level="ERROR" enabled_by_default="true" />
+    <inspection_tool class="TsLint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="TypeScriptMissingConfigOption" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>
