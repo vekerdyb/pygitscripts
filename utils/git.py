@@ -17,21 +17,39 @@ def get_git_user_name():
 
 def get_last_branches():
     stream = os.popen(
-        f"git for-each-ref --sort=-committerdate "
-        f"--format='%(author) | %(committerdate) | %(refname:short)' "
-        f"refs/heads/ "
-        f"| grep -i {get_git_user_name().split()[0]} "
-        f"| head -n 10"
+        f"git reflog show --date=iso | grep 'checkout: moving from'" f"| head -n 100"
     )
     output = stream.read()
-    return [
-        branch.split("|")[2].strip()
-        for branch in output.strip().split("\n")
-        if branch.split("|")[2].strip()
-    ]
+
+    formatted_options = sorted(
+        [
+            {"date": branch.split("{")[1][:19], "branch": branch.split(" ")[-1]}
+            for branch in output.strip().split("\n")
+        ],
+        key=lambda x: x["date"],
+        reverse=True,
+    )
+
+    single_branch_options = []
+    branches_seen = set()
+    for formatted_option in formatted_options:
+        if formatted_option["branch"] not in branches_seen:
+            single_branch_options.append(
+                f"{formatted_option['date']}: {formatted_option['branch']}"
+            )
+            branches_seen.add(formatted_option["branch"])
+
+    return single_branch_options[:10]
 
 
-def show_git_menu(options, command_template, needs_confirmation=True):
+def show_git_menu(
+    options,
+    command_template,
+    needs_confirmation=True,
+    get_command_param_from_selected_option=(
+            lambda selected_line: selected_line.split(" ")[0]
+    ),
+):
     if not options:
         print("No options found.")
         return
@@ -43,8 +61,8 @@ def show_git_menu(options, command_template, needs_confirmation=True):
         print("Not a valid option.")
         return
     selected_line = options[menu_entry_index]
-    selected_option_first_word = selected_line.split(" ")[0]
-    command = command_template.format(option=selected_option_first_word)
+    selected_option = get_command_param_from_selected_option(selected_line)
+    command = command_template.format(option=selected_option)
 
     print(f"\nWill execute:\n\n\t{command}\n")
 
